@@ -1,0 +1,4 @@
+vi /tmp/file.txt
+chmod g+w /tmp/file.txt
+chmod u-r /tmp/file.txt
+chmod o+x /tmp/file.txt
