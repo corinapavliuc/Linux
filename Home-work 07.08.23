@@ -1,25 +1,21 @@
-1 выведет дату на экран
-2 создаст папку в корневом разделе с вашим именем
-3 создаст в этой папке текстовый файл с произвольным именем
-4 ДОзапишет в новый файл информацию вывода команды df -h
- 5 скопирует файл в папку /tmp с новым названием logs.txt
-6 удалит файл readme.txt из домашней папки пользователя и первый созданный файл по пути /ВАШЕ_ИМЯ/
-7 выведет на экран “it works!”
-
-
-
 #!/bin/bash
- 
+
+
+#date
+
+#USER="Corina"
+
+#echo "hello $USER!"
+
+#pwd
+
+
+# or
+
 date
- 
-mkdir -p /corina
- 
-touch /corina/123.txt
- 
-df -h >> /corina/123.txt
- 
-cp /corina/123.txt /tmp/logs.txt
- 
-rm /root/readme.txt /corina/123.txt
- 
-echo "it works"
+
+whoami=USER
+
+echo "hello $USER"
+
+pwd
