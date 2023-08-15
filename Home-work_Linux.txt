@@ -1,0 +1,44 @@
+  0 env
+   1 script.sh
+   2 nano script.sh
+   3 ls -al
+   4 chmod +x script.sh
+   5 ./script.sh
+   6 export MYVAR=SLAVA
+   7 env
+   8 nano script.sh
+   9 ./script.sh
+  10 env
+  11 nano script.sh
+  12 ps -ef
+  13 ps -ef | tail
+  14 ps -ef | tail -2
+  15 ps -ef | head  -2
+  16 tail --help
+  17 ps -ef | tail+2
+  18 ps -ef | tail -n2
+  19 ps -ef | tail -n5
+  20 ps -ef | tail -n10
+  21 tail --help
+22 ps -ef | tail -n+2
+  23 nano sleeper.sh
+  24 nano script.sh
+  25 chmod +x sleeper.sh
+  26 ./sleeper.sh
+  27 nano sleeper.sh
+  28 cat /proc/cpuinfo
+  29 ls -al
+  30 ls -al /proc
+  31 cat /proc/version
+  32 cat /etc/os-release
+  33 uname -a
+  34 cat /etc/os-release | grep -w NAME
+  35 cat /etc/os-release | grep  NAME
+  36 cat /etc/os-release | grep -w NAME
+  37 cat /etc/os-release | grep -w NAME | sed 's/Name=//d'
+  38 cat /etc/os-release | grep -w NAME | sed 's/Name=//g'
+  39 cat /etc/os-release | grep -w NAME | sed 's/Name=//'
+  40 dh -h
+  41 df -h
+  42 df -h | awk '{print $3}'
+  43 history
