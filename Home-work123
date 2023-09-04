@@ -1,0 +1,15 @@
+#!/bin/bash
+ 
+ 
+mkdir -p /pavliuc
+echo "test"
+ 
+touch /pavliuc/123.txt
+ 
+df -h >> /pavliuc/123.txt
+ 
+cp /pavliuc/123.txt /tmp/logs.txt
+ 
+rm /root/readme.txt /pavliuc/123.txt
+ 
+echo "it works"
