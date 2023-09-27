@@ -1,0 +1,5 @@
+ date > result.txt
+ df -h / >> result.txt
+ history 5 >> result.txt
+ cat /proc/cpuinfo | grep 'vendor' | sort | uniq >> result.txt
+ ps -ef | wc -l >> result.txt
